@@ -3,6 +3,10 @@ languageCode = 'en-uk'
 title = 'My New Hugo Site'
 theme = "hugo-theme-console"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
   titleCutting = false
