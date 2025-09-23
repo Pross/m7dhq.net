@@ -1,6 +1,6 @@
 baseURL = 'https://m7dhq.net/'
 languageCode = 'en-uk'
-title = 'My New Hugo Site'
+title = 'M7DHQ.NET'
 theme = "hugo-theme-console"
 
 [caches]
