@@ -16,8 +16,6 @@ TX audio is what we **hear** from the radio, it is **not** your keyed up audio.
 
 We will add a way to change to different levels on the go, without dropping connection or disrupting an active QSO!
 
-Step One:
-
 Log into your node via SSH, this will vary depending on how you setup your node. You may even have an SSH client already setup if using the cockpit appliance.
 
 Now open the Allmon3 config file `/etc/allmon3/web.ini` we will add some items to the `[syscmds]` stanza.
