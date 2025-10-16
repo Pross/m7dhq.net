@@ -8,6 +8,7 @@ date = "2025-10-15"
 
 <!--more-->
 
+Add to `/etc/allmon3/custom.css`
 ```
 body.logged-out .node-bi:nth-child(n + 3) {
         display:none;

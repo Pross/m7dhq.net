@@ -8,6 +8,7 @@ Using a fixed width terminal font stops the display shifting by single pixels wh
 
 <!--more-->
 
+Add to `/etc/allmon3/custom.css`
 ```
 td.lastr,
 td.ctime {
