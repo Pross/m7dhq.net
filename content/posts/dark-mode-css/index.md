@@ -71,11 +71,6 @@ td.node-conn-keyed {
 	.sidebar img {
 		filter: invert(100%);
 	}
-	.sidebar a,
-	.sidebar button.btn-outline-dark {
-		background: #3A3D3E;
-		border-color: #1C1C1D;
-	}
 	div.rounded {
 		border-bottom: none !important;
 	}
@@ -85,9 +80,15 @@ td.node-conn-keyed {
 	tbody, td, tfoot, th, thead, tr {
 		border-color: #3A3D3E !important;
 	}
+	.sidebar a,
 	#login-out-region button {
 		color: rgb(226, 229, 233);
-		background: #6c757d;
+		background: #3A3D3E;
+		border-color: #1C1C1D;
+	}
+	#login-out-region button:hover {
+		background: #5C636D;
+		border-color: #1C1C1D;
 	}
 	.nodetxline.am3-no-tx,
 	.nodetxline.am3-tx-network,
