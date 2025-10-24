@@ -18,47 +18,45 @@ Add to `/etc/allmon3/custom.css`
 		--am3-navbar-color: rgba(0, 0, 0, 1);
 		--am3-nodetitle-color: hsl(228, 5%, 80%);
 	}
-
 }
 
 .nodetxline.am3-no-tx {
-    /* opacity: 0.5;
-    color: rgb(195, 230, 203); */
+  color: rgb(195, 230, 203); */
 }
 .nodetxline {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 body.logged-out .node-bi:nth-child(n + 3) {
-        display:none;
+	display:none;
 }
 #asl-statmon-dashboard-area td.desc {
-    min-width: 300px;
-    max-width: 300px;
+	min-width: 300px;
+	max-width: 300px;
 }
 
 th.node-conn-nokey,
 th.node-conn-keyed,
 td.node-conn-nokey,
 td.node-conn-keyed {
-    font-family: 'Nimbus Mono PS', 'Courier New', monospace;
-    padding: 6px 0 0 6px;
-    font-weight: 700;
-    opacity: .8;
+	font-family: 'Nimbus Mono PS', 'Courier New', monospace;
+	padding: 6px 0 0 6px;
+	font-weight: 700;
+	opacity: .8;
 }
 
 .numconns-box,
 .uptime-box {
-    font-family: 'Nimbus Mono PS', 'Courier New', monospace;
-    padding-top: 4px;
-    font-weight: 700;
-    opacity: .8;
+	font-family: 'Nimbus Mono PS', 'Courier New', monospace;
+	padding-top: 4px;
+	font-weight: 700;
+	opacity: .8;
 }
 
 @media only screen and (max-width: 600px) {
-  #asl-statmon-dashboard-area td.desc {
-    min-width: unset;
-    max-width: unset;
+	#asl-statmon-dashboard-area td.desc {
+		min-width: unset;
+		max-width: unset;
   }
 }
 
@@ -72,6 +70,11 @@ td.node-conn-keyed {
 	}
 	.sidebar img {
 		filter: invert(100%);
+	}
+	.sidebar a,
+	.sidebar button.btn-outline-dark {
+		background: #3A3D3E;
+		border-color: #1C1C1D;
 	}
 	div.rounded {
 		border-bottom: none !important;
@@ -90,8 +93,8 @@ td.node-conn-keyed {
 	.nodetxline.am3-tx-network,
 	.nodetxline.am3-tx-local,
 	.nodetxline.am3-tx-telemetry {
-	    opacity: 1;
-	    background: #212529 !important;
+		opacity: 1;
+		background: #212529 !important;
 		border-color: #3A3D3E;
 		color: rgb(226, 229, 233) !important;
 	}
