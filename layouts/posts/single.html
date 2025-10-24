@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ $lastmod := .Lastmod.Format "02.01.2006" }}
+
+<h1>{{ .Title }}</h1>
+
+<br/><br/>
+{{ .Content }}
+
+Last Updated: {{ $lastmod }}
+
+{{ end }}

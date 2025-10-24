@@ -18,8 +18,13 @@ Add to `/etc/allmon3/custom.css`
 		--am3-navbar-color: rgba(0, 0, 0, 1);
 		--am3-nodetitle-color: hsl(228, 5%, 80%);
 	}
+
 }
 
+.nodetxline.am3-no-tx {
+    /* opacity: 0.5;
+    color: rgb(195, 230, 203); */
+}
 .nodetxline {
     margin-bottom: 5px;
 }
@@ -81,11 +86,23 @@ td.node-conn-keyed {
 		color: rgb(226, 229, 233);
 		background: #6c757d;
 	}
-	.nodetxline.am3-no-tx {
+	.nodetxline.am3-no-tx,
+	.nodetxline.am3-tx-network,
+	.nodetxline.am3-tx-local,
+	.nodetxline.am3-tx-telemetry {
 	    opacity: 1;
 	    background: #212529 !important;
-		color: rgb(226, 229, 233) !important;
 		border-color: #3A3D3E;
+		color: rgb(226, 229, 233) !important;
+	}
+	.nodetxline.am3-tx-telemetry,
+	.nodetxline.am3-tx-network,
+	.nodetxline.am3-tx-local {
+		background: #3A3D3E !important;
+	}
+
+	.nodetxline.am3-tx-local {
+		color: red !important;
 	}
 
 	:root {
@@ -99,6 +116,10 @@ td.node-conn-keyed {
 		--bs-table-bg: #3A3D3E !important;
 		--bs-table-border-color: rgb(226, 229, 233) !important;
 		--bs-border-color: rgb(226, 229, 233) !important;
+		--am3-node-tx-local-bg-color: #3A3D3E;
+		--am3-node-tx-local-color: #3A3D3E;
+		--am3-node-tx-playback-remote-bg-color: #3A3D3E;
+		--am3-node-tx-telemetry-bg-color: #3A3D3E
 	}
 }
 ```
